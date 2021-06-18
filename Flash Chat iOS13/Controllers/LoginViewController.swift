@@ -28,7 +28,7 @@ class LoginViewController: UIViewController {
                     self.present(self.alert, animated: true, completion: nil)
                 } else {
                     
-                    self.performSegue(withIdentifier: "LoginToCHat", sender: self)
+                    self.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
                 
             }
