@@ -11,6 +11,7 @@ import UIKit
 class MessageCell: UITableViewCell {
 
     
+    @IBOutlet weak var leftImageView: UIImageView!
     
     @IBOutlet weak var messageBubble: UIView!
     
